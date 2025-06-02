@@ -1,0 +1,60 @@
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: musquank1
+spec:
+  profile:
+    displayName: Musquan
+  memberOf: [guests, ICS, Team-A, Team-B]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: guests
+spec:
+  type: team
+  profile:
+    displayName: guests
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: ICS
+spec:
+  type: team
+  profile:
+    displayName: ICS Team
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-a
+spec:
+  type: team
+  profile:
+    displayName: Team-A
+  children: []  
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-b
+spec:
+  type: team
+  profile:
+    displayName: Team-B
+  children: []  
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-c
+spec:
+  type: team
+  profile:
+    displayName: Team-C
+  children: []
