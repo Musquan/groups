@@ -10,6 +10,15 @@ spec:
   memberOf: [guests, ICS, Team-A, Team-B]
 ---
 apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: shashankdatt08
+spec:
+  profile:
+    displayName: Shashank
+  memberOf: [guests, ICS, Team-A, Team-B]
+---
+apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: guests
