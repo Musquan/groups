@@ -19,6 +19,24 @@ spec:
   memberOf: [guests, ICS, Team-A, Team-B]
 ---
 apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ganesh.vinaitheerthan
+spec:
+  profile:
+    displayName: Ganesh
+  memberOf: [guests, ICS, Team-A, Team-B]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: sainiteesh.sala
+spec:
+  profile:
+    displayName: Niteesh
+  memberOf: [guests, ICS, Team-A, Team-B]
+---
+apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: guests
