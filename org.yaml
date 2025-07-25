@@ -37,6 +37,24 @@ spec:
   memberOf: [guests, ICS, Team-A, Team-B]
 ---
 apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name:  vpusarla
+spec:
+  profile:
+    displayName: Keerti
+  memberOf: [guests, ICS, Team-A, Team-B]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: adishwar.suresh
+spec:
+  profile:
+    displayName: Adishwar
+  memberOf: [guests, ICS, Team-A, Team-B]
+---
+apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: guests
